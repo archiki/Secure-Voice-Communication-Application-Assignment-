@@ -14,5 +14,8 @@ At the reciever, the chatoic noise is subtracted out (regenerated using the key)
 Inverse of LPC is done to recreate the speech signal. Since the compression is lossy there is some additive noise. All the segments are stiched together and the entire signal is generated.
 
 
+To observe the results add the ```.wav``` file to ```main.m``` and run it, the program generates the decoded ```.wav``` file.
+
+
 
 
